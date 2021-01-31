@@ -16,7 +16,8 @@
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-black-70">
             <div class="container">
                 <a class="navbar-brand p-2" href="#">
-                    <img id="logo" src="images/logo_white.png" alt="white logo Quiet Break" srcset="images/logo_white.svg"/>
+                    <img id="logo" src="images/logo_white.png" alt="white logo Quiet Break"
+                        srcset="images/logo_white.svg" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -26,7 +27,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <ul class="navbar-nav text-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+                            <a class="nav-link" href="index.html">Welcome</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="menu.html">Menu</a>
@@ -35,7 +36,7 @@
                             <a class="nav-link" href="pictures.html">Pictures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="restaurants.html">Restaurants</a>
+                            <a class="nav-link active" aria-current="page" href="restaurants.html">Restaurants</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -45,49 +46,56 @@
             </div>
         </nav>
     </header>
-    <!-- begin carousel section -->
-    <div class="container-fluid bg-black">
-        <div class="row justify-content-center">
-            <div class="col p-0 overflow-hidden max-vh-50 position-relative">
-                <div class="to-front position-absolute bottom-0 w-100 p-2 bg-black-70">
-                    <h5 class="text-center text-white">Slide label</h5>
-                    <p class="text-center fs-6 lead text-white">
-                        Paragraph
-                    </p>
-                </div>
-                <div id="carouselWelcome" class="carousel-dark slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/home_01.jpg" class="d-block w-100" alt="Inside of the restaurant">
-                            
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/home_02.jpg" class="d-block w-100" alt="Personne Tenant Un Bol">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/home_03.jpg" class="d-block w-100" alt="Poulet Cuit Sur Plaque Blanche">
-                        </div>
-                    </div>
-                </div>
+
+    <!-- begin main title -->
+    <main class="container spacer-main">
+        <div class="row py-4">
+            <div class="col-12">
+                <p class="h1 text-center c-s-light">About Us</p>
             </div>
         </div>
-    </div>
-    <!-- end carousel section -->
-    <!-- begin main title -->
-    <main class="container">
         <div class="row mt-4">
             <div class="col-12 col-md-6 mb-3">
                 <div class="shadow rounded bg-p-light overflow-hidden b-s-light">
                     <h2 class="p-3 c-s-light text-center bg-p-dark">News Title</h2>
-                    <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt officiis at voluptas mollitia quibusdam quaerat debitis dolorum illum tempore, corporis, iure assumenda. Itaque mollitia rerum optio nulla possimus, rem saepe sequi reprehenderit a accusantium cupiditate impedit nemo dolorum voluptatibus? Dolorem libero saepe impedit blanditiis eius dolorum, totam molestiae ex harum ipsam quae delectus, porro, velit dolores! Saepe ratione omnis exercitationem nam animi, consectetur at dolores tenetur aspernatur distinctio, deleniti autem?
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt officiis at
+                        voluptas mollitia quibusdam quaerat debitis dolorum illum tempore, corporis, iure assumenda.
+                        Itaque mollitia rerum optio nulla possimus, rem saepe sequi reprehenderit a accusantium
+                        cupiditate impedit nemo dolorum voluptatibus? Dolorem libero saepe impedit blanditiis eius
+                        dolorum, totam molestiae ex harum ipsam quae delectus, porro, velit dolores! Saepe ratione omnis
+                        exercitationem nam animi, consectetur at dolores tenetur aspernatur distinctio, deleniti autem?
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md-6 mb-3">
+
+                <div class="shadow rounded p-1 bg-p-light overflow-hidden b-s-light">
+                    <div class="dropdown">
+                        <button class="btn bg-p-color b-s-light border-4 shadow py-3 c-s-light dropdown-toggle col-12"
+                            type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Choose a location
+                        </button>
+                        <ul class="dropdown-menu col-12" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Location 1</button></li>
+                            <li><button class="dropdown-item" type="button">Location 2</button></li>
+                            <li><button class="dropdown-item" type="button">Location 3</button></li>
+                        </ul>
+                    </div>
+                    <div class="p-3">
+                        <p>Location 1</p>
+                        <p>
+                         Schedules
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
                 <div class="shadow rounded bg-p-light overflow-hidden b-s-light">
-                    <h2 class="p-3 c-s-light text-center bg-p-dark">News Title</h2>
-                    <p class="p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt officiis at voluptas mollitia quibusdam quaerat debitis dolorum illum tempore, corporis, iure assumenda. Itaque mollitia rerum optio nulla possimus, rem saepe sequi reprehenderit a accusantium cupiditate impedit nemo dolorum voluptatibus? Dolorem libero saepe impedit blanditiis eius dolorum, totam molestiae ex harum ipsam quae delectus, porro, velit dolores! Saepe ratione omnis exercitationem nam animi, consectetur at dolores tenetur aspernatur distinctio, deleniti autem?
-                    </p>
+                    <h2 class="p-3 c-s-light text-center my-0 bg-p-dark">Map</h2>
+                    <iframe class="m-0"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12620.018063295198!2d-122.49857748162843!3d37.743038284964996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x359f828404326bf!2sEl%20Burrito%20Express!5e0!3m2!1sfr!2sbe!4v1612092505675!5m2!1sfr!2sbe"
+                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="true" tabindex="0"></iframe>
                 </div>
             </div>
         </div>

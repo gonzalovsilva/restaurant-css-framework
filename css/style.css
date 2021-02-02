@@ -84,7 +84,15 @@ h2 {
 }
 
 .bg-tex {
+  background-image: url(../images/bg_p2.jpg);
+}
+
+.bg-leather {
   background-image: url(../images/bg_leather.jpg);
+}
+
+.bg-p3 {
+  background-image: url(../images/bg_p2_light.jpg);
 }
 
 .bg-black {

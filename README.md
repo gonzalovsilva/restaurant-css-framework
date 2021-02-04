@@ -10,9 +10,9 @@ Create a fictitious restaurant franchise mobile first website using bootstrap fr
 ![smartphone prototype sketch image](readme/../readme_sources/proto_phones.jpg)
 
 ### Photos used from pexels:
-Photo de cottonbro provenant de Pexels
-Photo by Daniela Constantini from Pexels
-Photo de Karolina Grabowska provenant de Pexels
-Photo de Yente Van Eynde provenant de Pexels
-Photo de Negative Space provenant de Pexels
-...
+* Photo by cottonbro
+* Photo by Daniela Constantini
+* Photo by Karolina Grabowska
+* Photo by Yente Van Eynde
+* Photo by Negative Space
+* ...
